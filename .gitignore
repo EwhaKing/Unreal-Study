@@ -1,0 +1,36 @@
+# 빌드 및 임시 폴더
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+
+# 소스 컨트롤에서 제외할 기타 파일
+.vscode/
+.vs/
+*.sln
+*.vcxproj
+*.vcxproj.filters
+*.vcxproj.user
+*.suo
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.opendb
+
+# 플러그인 빌드 폴더
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+
+# 모든 하위 프로젝트의 임시 폴더 제외
+**/Binaries/
+**/DerivedDataCache/
+**/Intermediate/
+**/Saved/
+**/Build/
+
+# 모든 하위 프로젝트의 IDE 파일 제외
+**/.vscode/
+**/.vs/
+**/*.sln
+**/*.vcxproj*
