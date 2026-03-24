@@ -15,6 +15,11 @@ AMovingPlatform::AMovingPlatform()
 void AMovingPlatform::BeginPlay()
 {
 	Super::BeginPlay();
+
+	MyInt = 9;
+
+	AplusB = InputA + InputB;
+	FloatAplusB = FloatA + FloatB;
 	
 }
 
